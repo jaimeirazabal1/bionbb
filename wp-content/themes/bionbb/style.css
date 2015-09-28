@@ -1,0 +1,188 @@
+*{margin: 0px;padding: 0px;}
+*::selection {background:#478eef;color:#fff;}
+*::-moz-selection {background:#478eef;color:#fff;}
+/*Editar*/
+#contenido-left-inferior {
+  width: 71%;
+  float: left;
+  height: auto;
+}
+/*Editar*/
+
+
+
+
+
+body{width:100%;height:100%;background-image: url(img/fondo.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:center center;background-size: cover;font-family:'Open Sans';font-size:14px;}
+
+#contenedor-top{width: 90%;max-width: 1024px;height: auto;margin: 0px auto;}
+header{margin-top: 20px;width: 100%;height:120px;float: left;}
+header h1 a img.logo-web{margin-left: 3%;  position: relative;margin-top: 13px; width: 14%;float: left;}
+
+/*menu web*/
+    nav{position: relative; width: 82%;float:left;height: 130px;}
+    nav img{ z-index: 0;  margin-top: -19px; width: 100%;  margin-left: 32px;position: relative;}
+    nav ul {padding: 0;margin: -102px auto;width: 80%;height: 70px;z-index: 1;position: relative;} 
+    nav li { display: inline; float: left;}
+    nav a { color: #ff7f00;display: inline-block; width: 105px;text-align: center;line-height: 18px;text-decoration: none;font-weight: 600;}
+    nav li:last-child a {border-right: 0;}
+    nav a:hover {text-decoration:none;text-shadow: 2px 2px #ab4408;}
+/*menu web*/
+
+/*mobile menu*/
+    #header{background: #22282e;height:60px;position: relative;width: 100%;z-index: 2}
+    #logo{display: block;float: left;margin: 6px 10px 0;width: 20%;height: 46px; text-indent: -9999px}
+    #logo img{width: 20%;}
+    /* Nuestro nav con id #menu lo flotaremos a la derecha*/
+    #menu{float: right;}   
+    /* Quitamos estilos por defecto de el tag UL */
+    #menu ul{ list-style: none;}
+    /* Centramos y ponemos los textos en mayuscula */ #menu li{  display: block; float: left;  text-transform: uppercase; text-align: center;}
+    /* Damos estilo a nuestros enlaces */ #menu li a{display: block;color: #fff; text-decoration: none; height: 60px;line-height: 60px; padding: 0 26px;}
+    #menu li a:hover{background: #151a1e;color: #ffc700;}
+
+    /* Estilos #nav-mobile y lo ocultamos */ 
+    #nav-mobile{display: none;background: url(img/nav.png) no-repeat center center;float: right;width: 60px; height: 60px; position: absolute;right: 0; top:0; opacity: .6;}   
+    /* Agregaremos esta clase a #nav-mobile, cuando el menu mobile haya sido desplegado */
+    #nav-mobile.nav-active{opacity: 1;}
+/*mobile menu*/
+
+#imagen-helicoptero{margin-top: 200px;position: absolute;  margin-left: 23%;}
+#contenedor {width: 90%;max-width: 1000px;height:auto;margin: 0px auto;}
+#contenido {float: left;background-image: url(img/content1.png);background-repeat: no-repeat;background-size: cover;width: 100%;min-height: 1044px;padding-bottom:2em;} 
+#contenido img.content{width: 100%; float: left;}
+#contenido-left{width: 71%; float: left; height:auto;}
+#slider { position: relative;overflow: hidden; width: 95%; height: auto; border: 1px solid #FFAE00; border-radius: 10px;margin-top: 3em;margin-left: 1.5em;padding: 0; float: left;}
+#slider > div {top:0;left:0;}
+#slider img {width:100%;max-height:350px;margin:0;padding:0; border:0;}
+.masked {
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+#central-text{text-decoration: none;}
+#contenido-left section#left {width: 47%;height: auto;float: left;margin-left: 1.6em;}
+section#left img#registro-bebe { width: 85%;   margin-left: 0px; float: left;}
+section#left img#calendario-bebe {width: 80%;  margin-left: 3px;float: left;margin-top: -21px;}
+
+section#left img#tabla-bebe {width: 70%;float: left;margin-left: 1em;}
+section#left form#tabla-talla{float: left;width: 71%;margin-left: 5%;height: 315px;background-image: url(http://www.bionbb.cl/wp-content/uploads/2015/04/tabla-talla1.png);background-size: contain;background-repeat: no-repeat;}
+section#left form#tabla-talla input,form#tabla-talla select {  margin-left: 1.5em;border-style: solid; padding: 5px;font-size:16px;text-align: left;border-width: 2px;border-radius: 8px;background-color: #006699;border-color: #9de3ff;color: #9de3ff;float: left; width: 72%; margin-top: 5px;}
+section#left form#tabla-talla placeholder{color: #9de3ff}
+.btn-style {cursor:pointer;border: solid 2px #d8fdff; border-radius: 7px;font-size:16px;moz-border-radius: 7px;color: #d8fdff; padding: 4px 21px; background-color: #00cafd;margin-left: 1.5em;margin-top: 10px;}
+section#left form#tabla-talla div.input-talla {margin-top: 95px;float: left; width: 100%;}
+
+#contenido-left section#right{width: 48%; height:auto; float: right;}
+#right div#articulo{float: left; width: 90%; border: solid 3px #ffcc99; margin-top: 20px;}
+#right div#articulo img{width: 100%;min-height:150px;}
+#right div#articulo div.articulo-text {width: 100%;background-color: #ff7e15;height: 60px;margin-top: -4px;}
+#right div#articulo div.articulo-text p {padding: 3%;position: relative;}
+#right div#articulo a {color: #fff;   text-decoration: none;}
+a.leer-mas, a:visited.leer-mas { -webkit-border-radius: 800px 800px 800px 800px; border-radius: 800px 800px 800px 800px;width: 14%;background: #ff7e15;padding: 26px;color: #fff;float: right;margin-top: -34px; margin-right: 32px;text-decoration: none;}
+aside#contenido-right{width: 29%; float: right; height: auto;}
+aside#contenido-right div#pajaritos{  margin-top: -8px;width: 100%; height: auto; float: left;}
+aside#contenido-right div#pajaritos img.pajarito-left{  position: relative;margin-top:0px;float: left; width: 20%;margin-left: 2%;}
+aside#contenido-right div#pajaritos img.pajarito-right{  position: relative;margin-top:0px;float: right; width: 20%;margin-right: 10%;}
+aside#contenido-right img {float: left;width: 86%;margin-bottom: 10px;margin-left: 1em; margin-top: -4px;}
+aside#contenido-right img.primer-pajarito{margin-top: -30px;}
+aside#contenido-right div#cadena-medio{position: relative;  margin-bottom: -21px;margin-top: -23px;width: 100%;height: auto; float: left;}
+aside#contenido-right div#cadena-medio img.cadena-left{width: 6%; float: left;margin-left: 15%; }
+aside#contenido-right div#cadena-medio img.cadena-right{  margin-right: 22%;width: 6%; float: right;}
+
+label.label {font-weight: 500;  margin-top: 6px;float: left;}
+label input.confirmacion {float: left;width: 10%; background-color: #ffffcc;border-color: #ffd84b;}
+form#formulario-contacto {margin-top: -29px;width: 89%;height: 600px;background-image: url(http://www.bionbb.cl/wp-content/uploads/2015/04/fomulario-de-contacto21.png); background-size: contain;/* background-size: cover; */ background-repeat: no-repeat; float: left; margin-left: 4%;}
+form#formulario-contacto input.input{   width: 89%; margin-top: 5px; border-width:2px; border-style:solid; padding:9px; border-radius:6px; background-color:#ffffcc; border-color:#ffd84b; color:#ff6905;  }
+form#formulario-contacto textarea { width: 89%;border-width:2px; border-style:solid;padding:9px; border-radius:6px; background-color:#ffffcc; border-color:#ffd84b; color:#ff6905; }
+textarea {width: 89%; border-width: 2px; border-style: solid;padding: 8px; border-radius: 6px; background-color: #ffffcc;border-color: #ffd84b; color: #ff6905;margin-top: 4px;}
+button.btn-enviar {color: #fff5bf;}
+.btn-style-1{cursor:pointer;border: solid 2px #fff5bf;border-radius: 7px;moz-border-radius: 7px;font-size: 16px;color: #fff5bf; padding: 4px 21px; background-color: #ff6b05;margin-top: 10px;  float: left;width: 100%;}
+form#formulario-contacto div.contenedor-formulario {width: 88%; float: left; margin-top: 97px; margin-left: 6%;}
+
+#producto {width: 100%;height: auto;float: left;}
+#producto img.producto-nube {width: 110%;float: left;margin-left: -24px;}
+#producto img.producto-bb {float: left; width: 30%;position: relative; margin-top: -190px; margin-left: 40%;}
+
+/*footer {width: 100%;height:auto; float: left;}
+#imagen-footer {z-index: -9999;position: absolute; width: 100%;  margin-top: 1075px;background-size: cover;}
+.footer{width: 100%; float: left;}
+.footer img.footer-1 {width: 100%;margin-top: -70px;position: relative;z-index: 1;}
+#footer-2{width: 100%;} 
+#footer-2 img.imagen-footer-2 {width: 100%; float: left; margin-top: -52px; position: relative; z-index: 2;}
+footer .contenido-footer { width:54%;margin: 0 auto; height: 200px; position: relative; z-index: 2; margin-top: -281px;}
+footer img#logo-footer{width: 14%; float: left;  margin-top: 14px;}
+footer div.footer-content{width: 27%; float: left; height: auto;}
+footer div.footer-content h2 {color: #bfe4ff;font-size: 20px;margin-left:17px;}
+footer div.footer-content ul{margin-left: 18px;   margin-top: 11px;}
+footer div.footer-content ul li{  list-style: none;}
+footer div.footer-content ul li a{  color: #fff; text-decoration: none; font-weight:600;}
+.footer-lista{  color: #fff; text-decoration: none; font-weight: 600;}
+footer .contenido-footer {width: 71%; margin: -162px 14%; height: auto; position: relative; z-index: 2;float: left;}
+footer .contenido-footer1 {  width: 54%; margin: 0px 23%; height: auto; z-index: 3; position: relative; float: left;}
+footer .contenido-footer1 p.derechos {float: left;color: #177394;font-weight: 600;margin-top: -160px; margin-left: 19%; width: 34%;}
+footer .contenido-footer1 span.aviso { width: 60%;float: right;margin-top: -133px;font-weight: 600;margin-right: -18%;}
+*/
+
+footer {width: 100%;height:auto; float: left;}
+/*-- footer-1 --*/
+.footer {width: 100%; float: left;height: auto;}
+.footer a, .footer a:visited , .footer a:hover {color:#fff;}
+#imagen-footer {z-index: -9999;position: absolute; width: 100%;  margin-top: 1075px;background-size: cover;}
+.footer img.footer-1 {width: 100%;margin-top: -70px;position: relative;z-index: 1;  float: left;}
+.footer img.barco { float: right; position: relative;z-index: 4;margin-top: -88px; margin-right: 19%;}
+footer .contenido-footer { width: 71%;height: auto; position: relative;  z-index: 2; float: left; margin-top: -250px; margin-left: 23%;}
+footer img#logo-footer{width: 11%; float: left;  margin-top: 14px;}
+footer div.footer-content{width: 27%; float: left; height: auto;}
+footer div.footer-content h2 {color: #bfe4ff;font-size: 20px;margin-left:17px;}
+footer div.footer-content ul{margin-left: 18px;   margin-top: 11px;}
+footer div.footer-content ul li{  list-style: none;}
+footer div.footer-content ul li:hover {text-decoration:inherit;text-shadow: 1px 2px #2C4EC3;}
+footer div.footer-content ul li a{color: #fff; text-decoration: none; font-weight: 600;}
+.footer-lista{  color: #fff; text-decoration: none; font-weight: 600;}
+/*-- footer-1 --*/
+/*-- footer-2 --*/
+#footer-2{width: 100%; float: left; height: auto;} 
+#footer-2 img.imagen-footer-2 {width: 100%; float: left; margin-top: -111px; position: relative; z-index: 2;}
+footer .contenido-footer1 {width: 54%;margin: -156px 31%;height: auto;z-index: 3; position: relative;float: left;}
+footer .contenido-footer1 p.derechos {text-decoration: none; float: left;color: #177394;font-weight: 600;margin-top: 0px; margin-left: 0%;width: 34%;}
+footer .contenido-footer1 p.derechos a {text-decoration: none;color: #177394;font-weight: 600;margin-top: 0px;}
+footer .contenido-footer1 span.aviso {width: 60%;float: right; margin-top: 0px;font-weight: 600;margin-right: 0%;}
+footer .contenido-footer1 span.aviso a{color:#000;text-decoration: none;font-weight: 600;}
+/*-- footer-2 --*/
+
+/*-- interior --*/
+section#contenido-left section#texto-central {width: 95%;float: left;background-color: #F5D59C; height:auto;margin: -8px 3.4%;position: relative;border-bottom: 1px solid #FFAE00;border-left: 1px solid #FFAE00;border-right: 1px solid #FFAE00;-webkit-border-radius: 0 0 10px 10px;border-radius: 0 0 10px 10px;}
+section#contenido-left section#texto-central p.text-1{ padding: 1em; color: #4E4E4E;}
+section#contenido-left section#texto-central span.text-volver {border-radius: 15px; background: none repeat scroll 0% 0% #FE6200; width: 16%; float: right; border: solid 2px #FBB50E;}
+section#contenido-left section#texto-central span.text-volver a.volver {float: right;color: #FFF;text-decoration: none;padding: 6px; margin-right: 14%;}
+section#contenido-left section#texto-central span.text-volver a.volver::before{content:url("img/flecha-blanca.png");}
+
+aside#contenido-right-interior{width: 29%; float: right; height: auto;}
+aside#contenido-right-interior div#pajaritos{  margin-top: -8px;width: 100%; height: auto; float: left;}
+aside#contenido-right-interior div#pajaritos img.pajarito-left{  position: relative;margin-top:0px;float: left; width: 20%;margin-left: 2%;}
+aside#contenido-right-interior div#pajaritos img.pajarito-right{  position: relative;margin-top:0px;float: right; width: 20%;margin-right: 10%;}
+aside#contenido-right-interior img {float: left;width: 86%;margin-bottom: 10px;margin-left: 1em; margin-top: -4px;}
+aside#contenido-right-interior img.primer-pajarito{margin-top: -30px;}
+aside#contenido-right-interior div#cadena-medio{position: relative;  margin-bottom: -21px;margin-top: -23px;width: 100%;height: auto; float: left;}
+aside#contenido-right-interior div#cadena-medio img.cadena-left{width: 6%; float: left;margin-left: 15%; }
+aside#contenido-right-interior div#cadena-medio img.cadena-right{  margin-right: 22%;width: 6%; float: right;}
+
+#right div#articulo1{float: left; width: 90%;margin-top: 20px;}
+#right div#articulo1 img { width: 85%; margin-left: 0px; float: left;}
+
+.wpcf7 input[type="text"],.wpcf7 input[type="select"], .wpcf7 input[type="email"] {width: 89%;margin-top: 5px;border-width:2px;border-style:solid;padding:9px;border-radius:6px;background-color:#ffffcc;border-color:#ffd84b;color:#ff6905;}
+.wpcf7 textarea {width: 89%;border-width:2px;border-style:solid;padding:9px;border-radius:6px;background-color:#ffffcc;border-color:#ffd84b;color:#ff6905;height:80px;}
+.wpcf7 label {font-size: 11px;font-weight: 500;float: left;}
+.page-title {font-size:34px;color:#0e3e98;font-family:'Verdana';line-height:36px;padding:20px 0px;}
+.page-thumb {border:1px solid #FFAE00;border-radius:10px;margin-bottom:1em;}
+.page-thumb img {display:block;width:100%;border-radius:10px;height:100%;}
+.archive-title {font-size:20px;margin-bottom:1em;}
+.archive-wrap {width:100%;border:1px solid #FFAE00;border-radius:10px;padding:1em;overflow:hidden;}
+.archive-wrap img {display:block;}
+.archive-wrap a, .archive-wrap a:hover, .archive-wrap a:visited {color:#FFAE00;text-decoration:none;}
+.archive-left {width:30%;float:left;}
+.archive-right {width:70%;float:left;}
+article {font-size:15px;}
+article p {margin-bottom:1em;}
+article a, a:hover, a:visited {color:#FFAE00;text-decoration:none;}
